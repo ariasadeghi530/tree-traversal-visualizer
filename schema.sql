@@ -4,7 +4,7 @@ drop table if exists example;
 
 
 create table example(
-    id integer primary key autoincrement,
+    id integer primary key,
     name text not null,
-    content not null
+    content text not null
 );

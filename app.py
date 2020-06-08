@@ -9,13 +9,13 @@ CORS(app)
 
 
 def index():
-    if request.method == 'GET':
-        pass
-    if request.method == 'POST':
-        name = request.form.get('name')
-        post = request.form.get('post')
-        create_post(name, post)
+    # if request.method == 'GET':
+    #     pass
+    # if request.method == 'POST':
+    #     name = request.form.get('name')
+    #     post = request.form.get('post')
+    #     create_post(name, post)
 
-    posts = get_posts()
+    # posts = get_posts()
 
     return render_template('index.html')
