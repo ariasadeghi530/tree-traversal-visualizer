@@ -11,7 +11,9 @@
     "framer-motion": "^1.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-rough": "^2.3.0",
+    "react-scripts": "3.4.1",
+    "roughjs": "^4.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
