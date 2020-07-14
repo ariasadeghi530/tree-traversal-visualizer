@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Selection() {
   const classes = useStyles();
-
+// need to trim for field i want but need to find favorite
   return (
     <form className={classes.root} noValidate autoComplete="off">
       <div>

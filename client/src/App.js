@@ -14,23 +14,25 @@ function App() {
     setNodeState({...nodeState, [event.target.name]: event.target.value});
   }
 
+  // just render the current nodes in the tree
   nodeState.handleViewNodes = () => {
-
+    
   }
 
-  nodeState.handleAddNode = () => {
-
+  // event.target.value will be the int value, then add to current state and view
+  nodeState.handleAddNode = event => {
   }
 
-  nodeState.handleFindNode = () => {
-
+  // event.target.value will be int value of node user wants
+  nodeState.handleFindNode = event => {
   }
 
-  nodeState.handleDeleteNode = () => {
+  // delete node of event.target.value
+  nodeState.handleDeleteNode = event => {
 
   }
-
-  nodeState.handlePrintNode = () => {
+// switch case for either dfs or bfs for event.target.value (selection) 
+  nodeState.handlePrintNode = event => {
 
   }
 
